@@ -1,0 +1,28 @@
+.conteudo{
+	background-color: blue;
+	border: 1px solid gray;
+	width: 200px;
+	height: 200px;
+	float: right;/*Sempre que usar o elemento 
+	flutunte deve-se usar o clear no final 
+	de todos para limpar o flux e deixar tudo
+	dentro da div pai*/
+	margin: 10px;
+}
+.conteudo1{
+	background-color: red;
+	border: 1px solid gray;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 10px;
+}
+.clear{
+	clear:both;
+}
+#principal
+{
+	border: 5px solid red;
+	background-color: green;
+
+}

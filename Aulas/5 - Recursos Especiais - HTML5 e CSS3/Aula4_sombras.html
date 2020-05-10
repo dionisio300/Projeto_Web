@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sombras</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		/*Mais informações de arredondameno
+		https://www.w3schools.com/cssref/css3_pr_box-sizing.asp
+		*/
+		#caixa1{
+			width: 280px;
+			height: 280px;
+			background-color: #b9c941;
+			padding: 10px;
+			margin: 10px;
+			box-shadow: 20px 20px 15px black;
+		}
+		#caixa1 h1{
+			color:white;
+			/*Os parâmetros do text shadow movimentam na horizontal e na vestical,se colocar um terceiro valor em pixel, vai borar a imagem da sombra, e por ultimo deve-se colocar uma cor para a sombra*/
+			text-shadow:20px 20px 3px rgba(0,0,0,0.6);
+		}
+		
+		/*Sombras:
+		https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+
+		https://www.w3schools.com/cssref/css3_pr_text-shadow.asp
+
+		*/
+	</style>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+</head>
+<body>
+	<div id="caixa1">
+		<h1>Título da Caixa</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat..</p>
+	</div>
+	
+	
+</body>
+</html>

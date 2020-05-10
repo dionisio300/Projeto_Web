@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seletores</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		/*Seletor de todos os elementos da página*/
+		*{
+			border:1px solid red;
+		}
+		/*Seletor de Texto*/
+		h1 {
+			color:green;
+		}
+		/*Seletor de classe: Seleciona um elemnto cujo atributo class tem o valor especificado depois do ponto*/
+		.verde{
+			color: green;
+		}
+		p.amarelo{
+			color:yellow;
+		}
+		/*Seletor ID:Seleciona um elemnto que tem o valor do atributo id igual a palavra que vem depois da cerquilha(#)*/
+		#cinza{
+			color:gray;
+		}
+		/*Seletor filho: Seleciona um elemnto que é filho direto de outro: Muito útil para fazer formatação de menus*/
+		li>a{
+			color:pink;
+			text-decoration: none;
+		}
+		/*Seletor descendente: Seleciona um elemnto que é descendente de outro elemento (e não apenas filho direto desse elemento)*/
+		.laranja a{
+			color:orange;
+			text-decoration: none;
+		}
+		/*Seletor de Irmão adjacente*/
+		h1+p{
+			color:red;
+		}
+		/*Seletor irmão geral: Seleciona um elemento que é irmão de outo, embora ele não precise ser o elemento diretamente precedente*/
+		.dourado h1~p{
+			color:gold;
+		}
+
+
+
+
+		
+	</style>
+</head>
+<body>
+	<div>
+		<h1>Título da Página</h1>
+		<p class="verde">
+			psum dolor sit amett doloqua. Ut enim ad minim veniam,
+			quis nostrud exercitatiocepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<p class="amarelo">
+			psum dolor sit amett doloqua. Ut enim ad minim veniam,
+			quis nostrud exercitatiocepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<p>
+			psum dolor sit amett doloqua. Ut enim ad minim veniam,
+			quis nostrud exercitatiocepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<p id="cinza">
+			psum dolor sit amett doloqua. Ut enim ad minim veniam,
+			quis nostrud exercitatiocepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<ul>
+			<li><a href="">Google</a></li>
+			<li>
+				<span>
+					<a href="">Twitter</a>
+					<!--NÃO É FILHO DIRETO-->
+				</span>
+			</li>
+			<li>Teste 1</li>
+			<li>Teste 2</li>
+		</ul>
+		<a href="">Link teste</a>
+
+		<ul class="laranja">
+			<li><a href="">Google</a></li>
+			<li>
+				<span>
+					<a href="">Twitter</a>
+					<!--NÃO É FILHO DIRETO-->
+				</span>
+			</li>
+			<li>Teste 1</li>
+			<li>Teste 2</li>
+		</ul>
+		<a href="">Link teste</a>
+	</div>
+	<div>
+		<h1>Cabeçalho</h1>
+		<p>vai dar certo</p>
+		<p>Ou será que não?</p>
+	</div>
+	<div>
+		<h1>Cabeçalho</h1>
+		<div>Assim não da certo porque não adjacente</div>
+		<p>vai dar certo</p>
+		<p>Ou será que não?</p>
+	</div>
+
+	<div class="dourado">
+		<h1>Cabeçalho</h1>
+		<div>Esse da certo porque não precisa ser adjacente</div>
+		<p>vai dar certo</p>
+		<p>Ou será que não?</p>
+	</div>
+
+</body>
+</html>

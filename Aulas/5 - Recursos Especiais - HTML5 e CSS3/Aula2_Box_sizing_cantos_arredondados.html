@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Border Radios e Box Sizing</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		/*Mais informações de arredondameno
+		https://www.w3schools.com/cssref/css3_pr_box-sizing.asp
+		*/
+		#caixa1{
+			width: 300px;
+			height: 300px;
+			background-color: #b9c941;
+			padding: 10px;
+			border-radius:150px;
+			margin: 10px;
+		}
+		#caixa2{
+			width: 300px;
+			height: 300px;
+			background-color: #b9c941;
+			padding: 50px;
+			box-sizing: border-box;
+		}
+		#caixa3{
+			width: 300px;
+			height: 300px;
+			background-color: #b9c941;
+			
+		}
+		img{
+			border-radius: 50px 100px 150px 200px;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+</head>
+<body>
+	<div id="caixa1">
+		<h1>Título da Caixa</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat..</p>
+	</div>
+	<img src="imagens_aula_2/perfil.jpg" width="300px" height="300px">
+
+	<div id="caixa2">
+		<h1>Título da Caixa</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam..</p>
+	</div>
+
+	<div id="caixa3">
+		<h1>Título da Caixa</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+
+
+</body>
+</html>

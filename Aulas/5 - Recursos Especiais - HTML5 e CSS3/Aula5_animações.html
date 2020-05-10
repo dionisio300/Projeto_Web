@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animações</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		/*Mais informações de arredondameno
+		https://www.w3schools.com/cssref/css3_pr_box-sizing.asp
+		*/
+		@keyframes animacao-caixa{
+			from{
+				background-color: #b9c941;
+				border-radius: 0px;
+				top:0;
+				left: 0;
+			}
+			to{
+				background-color: red;
+				border-radius: 150px;
+				top:150px;
+				left: 150px;
+			}
+		}
+		#caixa1{
+			width: 280px;
+			height: 280px;
+			background-color: #b9c941;
+			position: relative;
+			/*Assim:*/
+			animation-name: animacao-caixa;
+			animation-duration: 5s;
+			animation-delay: 3s;
+			animation-iteration-count: 2;
+			animation-direction: alternate;
+			/*Ou Assim:
+				animation: animacao-caixa 5s 3s 2 alternate;
+			
+			*/
+		}
+		/*Animações:
+			https://www.w3schools.com/css/css3_animations.asp
+
+			https://www.w3schools.com/cssref/css3_pr_animation-direction.asp
+		*/
+		
+	</style>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+</head>
+<body>
+	<div id="caixa1">
+		
+	</div>
+	
+	
+</body>
+</html>

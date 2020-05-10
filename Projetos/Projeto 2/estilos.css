@@ -1,0 +1,47 @@
+body{
+	background-image: url('imagens/fundo.png');
+
+}
+#menu ul {
+	padding: 20px;/*Espaçamento das letras para a margem*/
+	margin: 0px;
+	background-color:#BDBDBD;
+	list-style: none;
+	font-family: Arial;
+	font-weight: bold;
+	color:#424242 ;
+}
+#menu ul li{
+	display:inline;
+	text-transform: uppercase;
+}
+#sobre{
+	padding: 20px;
+	margin: 0px;
+	font-family: Arial;
+	background-color: #FFFFFF;
+	}
+#sobre h2{
+	color: #848484;
+}
+#DireitosReservados{
+	text-align: center;
+	font-family: Arial;
+}
+
+#principal{
+	width: 900px;
+}
+
+#menu a{
+	color: #4b566a;
+	text-decoration:none;
+	font-weight: bold;
+	padding: 5px;
+}
+.fotos{
+	width: 600px;
+	border:solid;
+	border-width: 10px;
+	border-color: #848484;
+}

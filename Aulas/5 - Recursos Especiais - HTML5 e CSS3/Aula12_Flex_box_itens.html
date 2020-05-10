@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Felx Box - ítens 1</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+
+	<script src="html-shiv.js"></script>
+
+	<style type="text/css">
+		#conteudo{
+			background: #dcdcdc;
+			display: flex;
+			height: 600px;
+			
+
+		}
+		.item{
+			background: white;
+			width: 100px;
+			height: 100px;
+			border:1px solid gray;
+			margin:10px;
+			flex-grow: 1;
+		}
+		.ordem1{
+			order:1;
+		}
+		.ordem2{
+			order:2;
+		}
+		.ordem3{
+			order:3;
+		}
+		.ordem4{
+			order:4;
+		}
+		/*Define a proporção de espaço ocupado por um ítem*/
+		.item1{
+			flex-grow:1;
+		}
+		.item2{
+			flex-grow:2;
+		}
+	</style>
+	
+</head>
+<body>
+	<h1>Flexbox</h1>
+	<div id="conteudo">
+		<div class="item item1">01</div>
+		<div class="item item2">02</div>
+		<div class="item">03</div>
+		<div class="item">04</div>
+	</div>
+	
+</body>
+</html>

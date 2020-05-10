@@ -1,0 +1,175 @@
+/*TAGS GERAIS*/
+*{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #fff url(imagens/fundo.png) repeat-x;
+}
+legend{
+	margin: 0px;
+}
+a{
+	color:#8A0808;
+}
+img.noticias-mundo{
+	padding-top:0px;
+	float:left;
+
+}
+.texto-azul{
+	font-size: 1em;
+	color:#5882FA;
+	float: left;
+	margin:0px 10px;
+}
+.texto-mundo{
+	font-size: 0.8em;
+	margin:-40px 0px 0px 95px;
+	float: left;
+}
+.espacado{
+	margin:10px 0 0 0;
+}
+.texto-fundo-azul{
+	color:white;
+	background: #294c71;
+	font-size: 1em;
+	padding: 5px;
+	margin-bottom:5px;
+}
+.texto-fundo-vermelho{
+	color:white;
+	background: #B40404;
+	font-size: 0.9em;
+	margin:0px;
+	padding: 2px;
+	display: inline;
+}
+.caixa-conteudo{
+	background: white;
+	padding: 5px;
+}
+/*TAGS DA NAVEGAÇÃO*/
+#topo{
+	height: 150px;
+	padding-top: 25px;
+	width: 760px;
+	margin: 0 auto;
+	background: url(imagens/detalhe-topo.png) no-repeat top right;
+}
+ul#navegacao {
+	list-style: none;
+	margin-top:30px;
+
+}
+ul#navegacao li{
+	float:left;
+	padding: 12px 24px;
+	background: #b10333 url(imagens/divisor.png) no-repeat center left;
+	margin-bottom: 5px;
+}
+ul#navegacao li a{
+	color:#fff;
+	text-decoration: none;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+ul#navegacao li#atual{
+	background:#de003e; 
+}
+/*TAGS DO CORPO DO SITE*/
+
+#corpo{
+	width: 760px;
+	margin:70px auto;
+}
+/*TUDO DA COLUNA 1*/
+#coluna1{
+	width:24%;
+	margin-right: 2%;
+	float:left;
+}
+#lista-entrevistas{
+	padding: 0px 5px 5px 5px;
+	list-style: none;
+}
+ul#lista-entrevistas li{
+	color:black;
+	padding: 10px 0px;
+	font-size: 0.8em;
+	border-bottom: 1px solid #D8D8D8;
+}
+ul#lista-entrevistas a{
+	text-decoration: none;
+	padding: 0px;
+	font-weight: bold;
+}
+ul#lista-entrevistas li:hover{
+	color:#6E6E6E;
+	padding: 10px 0px 10px 20px;
+	font-size: 0.8em;
+	background: url(imagens/marcador.png) no-repeat center left;
+}
+#email{
+	height: 1em;
+	padding: 5px;
+	font-size: 1em;
+	width: 80%;
+	margin:0px;
+}
+form input#botao-cadastrar{
+	color:white;
+	background: #B40404;
+	border:1px solid #8A0808;
+	padding: 5px;
+	height:30px;
+}
+
+
+
+
+/*FIM DA COLUNA 1*/
+#entrevistas{
+	background: url(imagens/fundo-caixa.png);
+	padding: 5px;
+}
+#coluna2{
+	margin-right: 2%;
+	float:left;
+	width:35%;
+}
+#coluna3{
+	width:35%;
+	float: left;
+}
+.clear{
+	clear: both;
+}
+/* fim das TAGS DO CORPO DO SITE*/
+/* INICIO das TAGS DO RODAPE*/
+#rodape{
+	background: #294c71;
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px 0 20px 0px;
+	color:#fff;
+	text-align: center;
+}
+.texto-mundo-brasil{
+	font-size:0.9em ;
+	display: inline;
+	margin-left: 10px;
+}
+/*CSS PÁGIA BRASIL*/
+#coluna2-brasil{
+	margin-right: 2%;
+	float:left;
+	width:70%;
+}
+#coluna2-fotos{
+	margin-right: 2%;
+	float:left;
+	width:95%;
+}

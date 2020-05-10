@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transições</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		/*Mais informações de arredondameno
+		https://www.w3schools.com/cssref/css3_pr_box-sizing.asp
+		*/
+		
+		#caixa1{
+			width: 280px;
+			height: 280px;
+			background-color: #b9c941;
+		}
+		#caixa1:hover{
+			width: 400px;
+			height: 280px;
+			background-color: yellow;
+			transition:width 4s, background-color 3s ;
+			/*Ou 
+			transition: all 3s;
+			*/
+
+			/*Transições:
+				https://www.w3schools.com/css/css3_transitions.asp
+			*/
+		}
+		
+		
+	</style>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+</head>
+<body>
+	<h1>Transições</h1>
+	<div id="caixa1">
+		
+	</div>
+	
+	
+</body>
+</html>

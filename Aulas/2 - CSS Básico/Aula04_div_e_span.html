@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Divs e Span</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+		p {
+			color:red;
+		}
+		h1 {
+			color:green;
+		}
+		.texto_azul{
+			color: blue;
+		}
+		#principal{
+			color: gray;
+		}
+		#topo{
+			background: gray;
+		}
+		#Produtos{
+			background: yellow;
+		}
+		.produto{
+			background: red;
+			margin: 10px;
+		}
+		#rodape{
+			background: green;
+		}
+		#assinatura{
+			background: brown;
+		}
+		#assinatura_completa{
+			background:blue;
+		}
+	</style>
+</head>
+<body>
+	<!--div são usadas para organizar os conteúdos do sites -->
+	<div id="topo">
+		<img src="../../imagens/amazon.png">
+		<ul>
+			<li>home</li>
+			<li>Produtos</li>
+			<li>Contatos</li>
+		</ul>
+	</div>
+
+	<div id="Produtos">
+		<div class="produto">
+			Produto 1
+		</div>
+		<div class="produto">
+			Produto 2
+		</div>
+
+		<div class="produto">
+			Produto 3
+		</div>
+	</div>
+
+	<div id="rodape">
+		Todos os direitos reservados
+	</div>
+	<!--Divs são como blocos que tem largura 100% da tela-->
+
+	<span id="assinatura">
+		Dionizio
+	</span>
+	<!--Elemento do tipo inline, é como se fosse bloquinhos, lado a lado.-->
+	<span id="assinatura_completa">
+		Porfírio
+	</span>
+	<!--Formatações específicas de partes do site que não se deve ficar em cima e em baixo, é necessário usar o span-->
+
+</body>
+</html>

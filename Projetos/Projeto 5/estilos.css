@@ -1,0 +1,175 @@
+/*CSS TAGS*/
+*{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url("imagens/bg.png");
+}
+#container{
+	width: 90%;
+	margin:15px auto;
+	max-width: 1200px;
+	min-width: 930px;
+}
+#topo{
+	width: 100%;
+	height: 250px;
+	background: url(imagens/topo-imagem-principal.png) no-repeat;
+}
+#logo{
+	position:relative;
+	top:10px;
+	left: 15px;
+}
+#area-menu1{
+	width: 470px;
+	height: 250px;
+	float:right;
+	background: url("imagens/topo-imagem-lateral.png") no-repeat;
+}
+#area-menu2{
+	width: 75%;
+	min-width:375px;
+	height: 250px;
+	
+	float: right;
+}
+#locais{
+	margin-top:15px;
+	border-top: 1px solid #BDBDBD;
+	border-bottom:1px solid #BDBDBD;
+	font-size: 0.7em;
+	
+}
+#locais p{
+	display: inline;
+	margin: 15px 0;
+	font-size: 1em;
+	float: left;
+	color:#585858;
+}
+input#botao-reservar{
+	float: right;
+	margin-top:3px;
+	margin-right: 3px;
+	padding: 5px;
+	font-size: 2em;
+	letter-spacing: 0.2em;
+	background: #688A08;
+	color: #A5DF00;
+	border-style: none;
+	border:1px solid green;
+}
+.clear{
+	clear: both;
+}
+#menu{
+	float: left;
+	
+}
+#menu ul{
+	margin-top: 15px;
+}
+#menu ul li a{
+	text-decoration: none;
+	font-size: 0.87em;
+	color: #688A08;
+	
+}
+#menu ul li{
+	padding: 5px;
+	list-style: none;
+}
+#menu ul a:hover{
+	background: #86B404;
+	padding: 5px;
+}
+#imagem3{
+	margin-left: 110px;
+	margin-top: 10px;
+}
+
+
+
+#corpo{
+	width: 100%;
+	background: black;
+	height: 400px;
+}
+#coluna1{
+	width: 50%;
+	background-color: yellow;
+	background: url(imagens/bg-area-principal.png) repeat-x #ECE7CA;
+	float: left;
+	height: 400px;
+	
+}
+#coluna2{
+	width: 50%;
+	background-color: green;
+	float: right;
+	height: 400px;
+	background: url(imagens/bg-area-lateral.png) repeat-x #DBD6B6;
+}
+#textos h2{
+	padding: 25px;
+	font-size: 1.08em;
+	color: #38610B;
+}
+#textos p{
+	padding: 0 25px;
+	font-size: 0.95em;
+}
+#caixa1{
+	width: 90%;
+	margin: 15px auto;
+	padding: 10px;
+	border-bottom: 1px solid #fff;
+}
+#imagem-caixa{
+	float: left;
+}
+#textos-caixa{
+
+	float: right;
+}
+#textos-caixa h2{
+	float: left;
+
+}
+#textos-caixa img{
+	float: right;
+}
+
+#coisas h2{
+	float: left;
+	font-size: 1.08em;
+	color: #38610B;
+}
+#coisas img{
+	float: right;
+}
+#coisas{
+
+	margin-left: 32%;
+	height: auto;
+}
+#coisas p{
+	margin-top:-60px;
+	font-size: 0.9em;
+}
+#caixa1:hover{
+	background: #F3E2A9;
+}
+#rodape{
+	height: 10px;
+	padding:20px;
+	color: #38610B;
+	background: #fff;
+}
+a{
+	text-decoration: none;
+	color: black;
+}

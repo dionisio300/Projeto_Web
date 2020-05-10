@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>navegação horizontal</title>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+		*{
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+		}
+
+		#home #navegacao .home a, #sobre #navegacao .sobre a, #servicos #navegacao .servicos a, #noticias #navegacao .noticias a, #contato #navegacao .contato a{
+			background-position: right;
+			background-color: #44cade;
+			color:#085662;
+		}
+		ul{
+			margin:0;
+			padding:0;
+			list-style: none;
+			width: 720px;
+
+		}
+		ul li{
+			
+			float:left;
+			background:url(imagens_aula_24/aba-direita.png) no-repeat top right;
+		}
+		li a{
+			display: block;
+			padding: 0 2em;
+			line-height: 3em;
+			text-decoration: none;
+			background: url(imagens_aula_24/aba-esquerda.png) no-repeat top left;
+		}
+		ul #atual{
+			background: url(imagens_aula_24/aba-direita-atual.png) top right;
+		}
+		ul #atual a{
+			background: url(imagens_aula_24/aba-esquerda-atual.png) no-repeat;
+		}
+
+
+	</style>
+</head>
+<body id="sobre">
+	<h2>Sobre</h2>
+
+	<ul>
+		<li><a href="Aula24_barra_de_navegacao_horizontal_com_abas.html">Home</a></li>
+		<li id="atual"><a href="Aula24_sobre.html">Sobre</a></li>
+		<li><a href="">Serviços</a></li>
+		<li><a href="">Noticias</a></li>
+		<li><a href="">Contato</a></li>
+	</ul>
+	
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>degradê e transparência</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		/*Mais informações de arredondameno
+		https://www.w3schools.com/cssref/css3_pr_box-sizing.asp
+		*/
+		#caixa1{
+			width: 280px;
+			height: 280px;
+			background-color: #b9c941;
+			padding: 10px;
+			margin: 10px;
+			/*background: url(imagens_aula_03/camera.png);*/
+			background: linear-gradient(96deg,#ccc,green,yellow,blue)
+		}
+		#caixa1 h1{
+			background: rgba(255,255,255,0.8);
+		}
+		#caixa2{
+			width: 280px;
+			height: 280px;
+			background-color: #b9c941;
+			padding: 10px;
+			margin: 10px;
+			/*background: url(imagens_aula_03/camera.png);*/
+			background: radial-gradient(#ccc,green,yellow,blue)
+		}
+		/*Degradê: https://www.w3schools.com/css/css3_gradients.asp
+
+		Transparencia: https://www.w3schools.com/css/css3_colors.asp*/
+	</style>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+</head>
+<body>
+	<div id="caixa1">
+		<h1>Título da Caixa</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat..</p>
+	</div>
+	<div id="caixa2">
+		<h1>Título da Caixa</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat..</p>
+	</div>
+	
+</body>
+</html>

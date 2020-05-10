@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Felx Box - ítens 2</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+
+	<script src="html-shiv.js"></script>
+
+	<style type="text/css">
+		#conteudo{
+			background: #dcdcdc;
+			display: flex;
+			height: 600px;
+			
+
+		}
+		.item{
+			background: white;
+			
+			height: 100px;
+			border:1px solid gray;
+			margin:10px;
+			flex-grow: 1;
+			flex-basis: 200px;
+		}
+		.ordem1{
+			order:1;
+		}
+		.ordem2{
+			order:2;
+		}
+		.ordem3{
+			order:3;
+		}
+		.ordem4{
+			order:4;
+		}
+		/*Define a proporção de espaço ocupado por um ítem*/
+		.item1{
+			flex-shrink:1;
+		}
+		.item2{
+			flex-shrink:5;
+		}
+		/*
+			Links para tudo sobre flex:
+			1 - https://www.w3schools.com/cssref/css3_pr_flex-direction.asp
+			2 - https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp
+			3 - https://www.w3schools.com/cssref/css3_pr_justify-content.asp
+			4 - https://www.w3schools.com/cssref/css3_pr_align-items.asp
+			5 - https://caniuse.com/#search=flexbox
+			6 - https://autoprefixer.github.io/
+			7 - https://github.com/jonathantneal/flexibility
+
+		*/
+	</style>
+	
+</head>
+<body>
+	<h1>Flexbox</h1>
+	<div id="conteudo">
+		<div class="item item1">01</div>
+		<div class="item item2">02</div>
+		<div class="item">03</div>
+		<div class="item">04</div>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Estilizando Formulários</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+		}
+		fieldset{
+			padding: 1em;
+			border: 1px solid #ccc;
+			background: #f8f8f8;
+		}
+		legend{
+			font-weight: bold;
+		}
+		label{
+			display:block;
+			cursor:pointer;
+		}
+		input[text]{
+			width:20em;
+		}
+		textarea{
+			width: 20em;
+			height: 10em;
+		}
+		input.radio, input.checkbox, input.submit{
+			width: auto;
+		}
+		.radio{
+			margin-right:1em;
+		}
+
+
+	</style>
+</head>
+<body>
+	<h2>Estilizando Formularios</h2>
+	<form>
+		<fieldset>
+			<legend>Detalhes de Contato</legend>
+			<div>
+				<label for="nome">Nome:</label>
+				<!--Deve-se colocar o for e o nome com a mesma palavra para ligar os dois-->
+				<input type="text" name="nome" id="nome">
+				<!--TAMBÉM PODE SER FEITO DESSA FORMA
+				<label>Nome:
+					<input type="text" name="nome" id="nome">
+				</label>
+				Dessa forma não precisa de for no label
+				-->
+			</div>
+			<br>
+			<div>
+				<label for="email">Email:</label>
+				<input type="text" name="email" id="email">
+			</div>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Comentários</legend>
+			<div>
+				<label for="mensagem">Mensagem</label>
+				<textarea name="mensagem" id="mensagem"></textarea>
+			</div>
+
+		</fieldset>
+		<fieldset>
+			<legend>Lembrar de mim</legend>
+			<div>
+				<label for="lembrar"></label>
+				<input type="radio" name="lembrar" id="sim">Sim
+			</div>
+
+			<div>
+				<input type="radio" name="lembrar" id="nao">Não
+			</div>
+		</fieldset>
+	</form>
+
+</body>
+</html>
